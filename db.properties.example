@@ -1,0 +1,5 @@
+# Copy this file to db.properties and put your own MySQL details here.
+# db.properties is in .gitignore, so your real password never goes to GitHub.
+db.url=jdbc:mysql://localhost:3306/nextnest
+db.user=root
+db.password=

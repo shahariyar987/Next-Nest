@@ -1,0 +1,22 @@
+.toggle-button {
+    -fx-background-color: transparent; /* Make button background invisible */
+    -fx-padding: 0; /* Remove extra padding */
+    -fx-shape: "M100,50 L122,100 L175,112 L140,150 L150,200 L100,175 L50,200 L60,150 L25,112 L78,100 Z"; /* Star shape */
+}
+
+.toggle-button:selected {
+    -fx-background-color: #FFD700; /* Deep gold color for the entire star */
+}
+
+.toggle-button:hover {
+    -fx-background-color: radial-gradient(
+        center 50% 50%, 
+        radius 50%, 
+        #FFD700,  /* Deep gold center */
+        #FFFF00   /* Bright yellow glow on hover */
+    );
+}
+
+
+
+

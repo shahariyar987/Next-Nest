@@ -1,0 +1,17 @@
+.fancy-progress-bar {
+    -fx-accent: linear-gradient(to right, #ff8c00, #ffb300); /* Brighter orange gradient for the progress bar */
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-border-color: #6a11cb; /* Border around progress bar */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 2px; /* Add padding to the bar */
+}
+
+.fancy-progress-bar .track {
+    -fx-background-color: rgba(0, 0, 0, 0.1); /* Subtle track background */
+}
+
+.fancy-progress-bar .bar {
+    -fx-background-radius: 5px; /* Rounded corners for the progress */
+}

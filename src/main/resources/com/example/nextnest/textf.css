@@ -1,0 +1,11 @@
+/* Transparent TextField Style */
+.transparent-text-field {
+    -fx-background-color: transparent; /* Makes the background transparent */
+    -fx-border-color: #a0a2ab; /* Optional: Adds a border for visibility */
+    -fx-border-width: 1px; /* Border thickness */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-text-fill: white; /* Makes the typed text visible in white */
+    -fx-font-size: 14px; /* Adjust the font size */
+    -fx-padding: 5px; /* Adds padding inside the field */
+    -fx-prompt-text-fill: #a0a2ab; /* Makes the placeholder text visible in a lighter color */
+}

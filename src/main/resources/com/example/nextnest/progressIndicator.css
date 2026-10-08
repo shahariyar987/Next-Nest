@@ -1,0 +1,34 @@
+/* ProgressIndicator Style */
+.progress-indicator {
+    -fx-progress-color: linear-gradient(to right, #a0a2ab, #151928); /* Gradient color for progress */
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-border-color: #2D3447; /* Border to match the app background */
+    -fx-border-width: 2px;
+    -fx-border-radius: 50%; /* Circular border */
+    -fx-padding: 5px;
+}
+
+/* Glow Effect for Progress */
+.progress-indicator:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.3), 10, 0.2, 0, 0); /* Glow effect on hover */
+}
+
+/* Spinner Size Adjustments */
+.progress-indicator > .spinner-path {
+    -fx-stroke-width: 4px; /* Adjust the width of the spinner stroke */
+    -fx-stroke: #ffffff; /* Spinner color */
+}
+
+/* Smooth Animation */
+.progress-indicator .animation {
+    -fx-animation-timing-function: ease-in-out;
+    -fx-animation-duration: 1.5s; /* Slow, smooth animation */
+}
+
+/* Hidden State (Optional for Visibility Control) */
+.progress-indicator.hidden {
+    -fx-opacity: 0; /* Invisible state */
+    -fx-scale-x: 0.8;
+    -fx-scale-y: 0.8;
+    -fx-transition: opacity 0.3s ease, transform 0.3s ease;
+}

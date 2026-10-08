@@ -1,0 +1,9 @@
+/* Transparent VBox */
+.transparent-vbox {
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-border-color: #a0a2ab; /* Optional: Adds a border */
+    -fx-border-width: 1px; /* Border thickness */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-padding: 10px; /* Inner padding for content spacing */
+    -fx-spacing: 10px; /* Space between child elements */
+}
